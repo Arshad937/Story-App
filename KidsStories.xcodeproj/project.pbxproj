@@ -8,17 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		BE9AB2662B4D89AE005578C7 /* KidsStoriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB2652B4D89AE005578C7 /* KidsStoriesApp.swift */; };
-		BE9AB2682B4D89AE005578C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB2672B4D89AE005578C7 /* ContentView.swift */; };
 		BE9AB26A2B4D89AF005578C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2692B4D89AF005578C7 /* Assets.xcassets */; };
 		BE9AB26D2B4D89AF005578C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB26C2B4D89AF005578C7 /* Preview Assets.xcassets */; };
+		BE9AB2792B4D8A67005578C7 /* ComicNeue-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2752B4D8A67005578C7 /* ComicNeue-Light.ttf */; };
+		BE9AB27A2B4D8A67005578C7 /* ComicNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2762B4D8A67005578C7 /* ComicNeue-Regular.ttf */; };
+		BE9AB27B2B4D8A67005578C7 /* ComicNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2772B4D8A67005578C7 /* ComicNeue-Bold.ttf */; };
+		BE9AB27C2B4D8A67005578C7 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB2782B4D8A67005578C7 /* Font.swift */; };
+		BE9AB2812B4D8A76005578C7 /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB27E2B4D8A76005578C7 /* StoryViewModel.swift */; };
+		BE9AB2822B4D8A76005578C7 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB27F2B4D8A76005578C7 /* AudioManager.swift */; };
+		BE9AB2832B4D8A76005578C7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB2802B4D8A76005578C7 /* Extensions.swift */; };
+		BE9AB2862B4D8AA0005578C7 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB2852B4D8AA0005578C7 /* Splash.swift */; };
+		BE9AB28E2B4D8AAC005578C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB2882B4D8AAC005578C7 /* HomeView.swift */; };
+		BE9AB28F2B4D8AAC005578C7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB2892B4D8AAC005578C7 /* BackgroundView.swift */; };
+		BE9AB2902B4D8AAC005578C7 /* ControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB28A2B4D8AAC005578C7 /* ControlButtonView.swift */; };
+		BE9AB2912B4D8AAC005578C7 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB28B2B4D8AAC005578C7 /* PlayerView.swift */; };
+		BE9AB2922B4D8AAC005578C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB28C2B4D8AAC005578C7 /* ContentView.swift */; };
+		BE9AB2932B4D8AAC005578C7 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AB28D2B4D8AAC005578C7 /* StoryView.swift */; };
+		BE9AB29E2B4D8ACE005578C7 /* story10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2942B4D8ACD005578C7 /* story10.mp3 */; };
+		BE9AB29F2B4D8ACE005578C7 /* story1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2952B4D8ACD005578C7 /* story1.mp3 */; };
+		BE9AB2A02B4D8ACE005578C7 /* story6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2962B4D8ACD005578C7 /* story6.mp3 */; };
+		BE9AB2A12B4D8ACE005578C7 /* story4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2972B4D8ACE005578C7 /* story4.mp3 */; };
+		BE9AB2A22B4D8ACE005578C7 /* story9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2982B4D8ACE005578C7 /* story9.mp3 */; };
+		BE9AB2A32B4D8ACE005578C7 /* story7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB2992B4D8ACE005578C7 /* story7.mp3 */; };
+		BE9AB2A42B4D8ACE005578C7 /* story2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB29A2B4D8ACE005578C7 /* story2.mp3 */; };
+		BE9AB2A52B4D8ACE005578C7 /* story5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB29B2B4D8ACE005578C7 /* story5.mp3 */; };
+		BE9AB2A62B4D8ACE005578C7 /* story8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB29C2B4D8ACE005578C7 /* story8.mp3 */; };
+		BE9AB2A72B4D8ACE005578C7 /* story3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE9AB29D2B4D8ACE005578C7 /* story3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE9AB2622B4D89AE005578C7 /* KidsStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9AB2652B4D89AE005578C7 /* KidsStoriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsStoriesApp.swift; sourceTree = "<group>"; };
-		BE9AB2672B4D89AE005578C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE9AB2692B4D89AF005578C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9AB26C2B4D89AF005578C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE9AB2732B4D8A01005578C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BE9AB2752B4D8A67005578C7 /* ComicNeue-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ComicNeue-Light.ttf"; sourceTree = "<group>"; };
+		BE9AB2762B4D8A67005578C7 /* ComicNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ComicNeue-Regular.ttf"; sourceTree = "<group>"; };
+		BE9AB2772B4D8A67005578C7 /* ComicNeue-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ComicNeue-Bold.ttf"; sourceTree = "<group>"; };
+		BE9AB2782B4D8A67005578C7 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		BE9AB27E2B4D8A76005578C7 /* StoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
+		BE9AB27F2B4D8A76005578C7 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		BE9AB2802B4D8A76005578C7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BE9AB2852B4D8AA0005578C7 /* Splash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		BE9AB2882B4D8AAC005578C7 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BE9AB2892B4D8AAC005578C7 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BE9AB28A2B4D8AAC005578C7 /* ControlButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlButtonView.swift; sourceTree = "<group>"; };
+		BE9AB28B2B4D8AAC005578C7 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		BE9AB28C2B4D8AAC005578C7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE9AB28D2B4D8AAC005578C7 /* StoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		BE9AB2942B4D8ACD005578C7 /* story10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story10.mp3; sourceTree = "<group>"; };
+		BE9AB2952B4D8ACD005578C7 /* story1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story1.mp3; sourceTree = "<group>"; };
+		BE9AB2962B4D8ACD005578C7 /* story6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story6.mp3; sourceTree = "<group>"; };
+		BE9AB2972B4D8ACE005578C7 /* story4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story4.mp3; sourceTree = "<group>"; };
+		BE9AB2982B4D8ACE005578C7 /* story9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story9.mp3; sourceTree = "<group>"; };
+		BE9AB2992B4D8ACE005578C7 /* story7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story7.mp3; sourceTree = "<group>"; };
+		BE9AB29A2B4D8ACE005578C7 /* story2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story2.mp3; sourceTree = "<group>"; };
+		BE9AB29B2B4D8ACE005578C7 /* story5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story5.mp3; sourceTree = "<group>"; };
+		BE9AB29C2B4D8ACE005578C7 /* story8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story8.mp3; sourceTree = "<group>"; };
+		BE9AB29D2B4D8ACE005578C7 /* story3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = story3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +98,23 @@
 		BE9AB2642B4D89AE005578C7 /* KidsStories */ = {
 			isa = PBXGroup;
 			children = (
+				BE9AB2732B4D8A01005578C7 /* Info.plist */,
 				BE9AB2652B4D89AE005578C7 /* KidsStoriesApp.swift */,
-				BE9AB2672B4D89AE005578C7 /* ContentView.swift */,
+				BE9AB2742B4D8A67005578C7 /* Fonts */,
+				BE9AB27D2B4D8A76005578C7 /* ViewModels */,
+				BE9AB2842B4D8AA0005578C7 /* Model */,
+				BE9AB2872B4D8AAC005578C7 /* Views */,
 				BE9AB2692B4D89AF005578C7 /* Assets.xcassets */,
+				BE9AB2952B4D8ACD005578C7 /* story1.mp3 */,
+				BE9AB29A2B4D8ACE005578C7 /* story2.mp3 */,
+				BE9AB29D2B4D8ACE005578C7 /* story3.mp3 */,
+				BE9AB2972B4D8ACE005578C7 /* story4.mp3 */,
+				BE9AB29B2B4D8ACE005578C7 /* story5.mp3 */,
+				BE9AB2962B4D8ACD005578C7 /* story6.mp3 */,
+				BE9AB2992B4D8ACE005578C7 /* story7.mp3 */,
+				BE9AB29C2B4D8ACE005578C7 /* story8.mp3 */,
+				BE9AB2982B4D8ACE005578C7 /* story9.mp3 */,
+				BE9AB2942B4D8ACD005578C7 /* story10.mp3 */,
 				BE9AB26B2B4D89AF005578C7 /* Preview Content */,
 			);
 			path = KidsStories;
@@ -65,6 +126,48 @@
 				BE9AB26C2B4D89AF005578C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE9AB2742B4D8A67005578C7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE9AB2752B4D8A67005578C7 /* ComicNeue-Light.ttf */,
+				BE9AB2762B4D8A67005578C7 /* ComicNeue-Regular.ttf */,
+				BE9AB2772B4D8A67005578C7 /* ComicNeue-Bold.ttf */,
+				BE9AB2782B4D8A67005578C7 /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BE9AB27D2B4D8A76005578C7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BE9AB27E2B4D8A76005578C7 /* StoryViewModel.swift */,
+				BE9AB27F2B4D8A76005578C7 /* AudioManager.swift */,
+				BE9AB2802B4D8A76005578C7 /* Extensions.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BE9AB2842B4D8AA0005578C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE9AB2852B4D8AA0005578C7 /* Splash.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE9AB2872B4D8AAC005578C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE9AB28C2B4D8AAC005578C7 /* ContentView.swift */,
+				BE9AB2882B4D8AAC005578C7 /* HomeView.swift */,
+				BE9AB2892B4D8AAC005578C7 /* BackgroundView.swift */,
+				BE9AB28A2B4D8AAC005578C7 /* ControlButtonView.swift */,
+				BE9AB28B2B4D8AAC005578C7 /* PlayerView.swift */,
+				BE9AB28D2B4D8AAC005578C7 /* StoryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +228,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9AB27A2B4D8A67005578C7 /* ComicNeue-Regular.ttf in Resources */,
+				BE9AB2A62B4D8ACE005578C7 /* story8.mp3 in Resources */,
+				BE9AB29F2B4D8ACE005578C7 /* story1.mp3 in Resources */,
+				BE9AB2A72B4D8ACE005578C7 /* story3.mp3 in Resources */,
+				BE9AB2A12B4D8ACE005578C7 /* story4.mp3 in Resources */,
 				BE9AB26D2B4D89AF005578C7 /* Preview Assets.xcassets in Resources */,
+				BE9AB2A52B4D8ACE005578C7 /* story5.mp3 in Resources */,
+				BE9AB27B2B4D8A67005578C7 /* ComicNeue-Bold.ttf in Resources */,
+				BE9AB29E2B4D8ACE005578C7 /* story10.mp3 in Resources */,
+				BE9AB2792B4D8A67005578C7 /* ComicNeue-Light.ttf in Resources */,
+				BE9AB2A42B4D8ACE005578C7 /* story2.mp3 in Resources */,
 				BE9AB26A2B4D89AF005578C7 /* Assets.xcassets in Resources */,
+				BE9AB2A22B4D8ACE005578C7 /* story9.mp3 in Resources */,
+				BE9AB2A32B4D8ACE005578C7 /* story7.mp3 in Resources */,
+				BE9AB2A02B4D8ACE005578C7 /* story6.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +253,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9AB2682B4D89AE005578C7 /* ContentView.swift in Sources */,
+				BE9AB2832B4D8A76005578C7 /* Extensions.swift in Sources */,
+				BE9AB2922B4D8AAC005578C7 /* ContentView.swift in Sources */,
+				BE9AB28E2B4D8AAC005578C7 /* HomeView.swift in Sources */,
+				BE9AB2902B4D8AAC005578C7 /* ControlButtonView.swift in Sources */,
+				BE9AB2912B4D8AAC005578C7 /* PlayerView.swift in Sources */,
+				BE9AB28F2B4D8AAC005578C7 /* BackgroundView.swift in Sources */,
+				BE9AB2932B4D8AAC005578C7 /* StoryView.swift in Sources */,
+				BE9AB2812B4D8A76005578C7 /* StoryViewModel.swift in Sources */,
+				BE9AB27C2B4D8A67005578C7 /* Font.swift in Sources */,
+				BE9AB2822B4D8A76005578C7 /* AudioManager.swift in Sources */,
+				BE9AB2862B4D8AA0005578C7 /* Splash.swift in Sources */,
 				BE9AB2662B4D89AE005578C7 /* KidsStoriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +400,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KidsStories/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsStories/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +413,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KidsStories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +432,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KidsStories/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsStories/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +445,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KidsStories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
